@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ФотоСтори</title>
+
+    <link rel="website icon" type="png" href="Лого.PNG">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a href="#photoshoot">Фотосъемка</a>
+            <a href="#locations">Локации</a>
+            <a href="#" class="a_img_logo"><img src="img/Лого.svg" alt="Logo"></a>
+            <a href="#questions">Вопросы</a>
+            <a href="#contacts">Контакты</a>
+            <select name="" id="">
+                <img src="img/батон.jpg" alt="">
+                <option></option>
+                <option><a href="#photoshoot">Фотосъемка</a></option>
+                <option value=""><a href="#locations">Локации</a></option>
+                <option value=""><a href="#questions">Вопросы</a></option>
+                <option value=""><a href="#contacts">Контакты</a></option>
+            </select>
+        </header>
+        
+        
+        <div class="block">
+            <h3>
+                <p class="h3_first_child">Фотостудия</p>
+                <p class="h3_last_child">ФОТОСТОРИ</p>
+            </h3>
+            <div class="quote">
+                <q>Фотография – это история, которую я не могу выразить словами.<br>– Дестин Спаркс</q>
+            </div>
+        </div>
+        <!-- PhotoShoots -->
+        <div class="photoShoots animate__animated animate__animate__shakeX"">
+            <h4  id="photoshoot">ФОТОСЪЁМКИ</h4>
+            <div class="block_1">
+                <h6>Портретная</h6>
+                <div class="photos V1">
+                    <div class="ph1 portret1"></div>
+                    <div class="ph2 portret2"></div>
+                    <div class="ph3 portret3"></div>
+                </div>
+                <p>1500 руб./ч</p>
+                <button class="book"><a href="#popup">Забронировать</a></button>
+            </div>
+            <div class="block_1">
+                <h6 class="small768px">Художественная постановочная</h6>
+                <div class="photos V2">
+                    <div class="ph1 hud1"></div>
+                    <div class="ph2 hud2"></div>
+                    <div class="ph3 hud3"></div>
+                </div>
+                <p>1500 руб./ч</p>
+                <button class="book"><a href="#popup">Забронировать</a></button>
+            </div>
+            <div class="block_1">
+                <h6>Love стори</h6>
+                <div class="photos V1">
+                    <div class="ph1 love1"></div>
+                    <div class="ph2 love2"></div>
+                    <div class="ph3 love3"></div>
+                </div>
+                <p>1500 руб./ч</p>
+                <button class="book"><a href="#popup">Забронировать</a></button>
+            </div>
+            <div class="block_1">
+                <h6>Новогодняя</h6>
+                <div class="photos V1">
+                    <div class="ph1 nY1"></div>
+                    <div class="ph2 nY2"></div>
+                    <div class="ph3 nY3"></div>
+                </div>
+                <p>1500 руб./ч</p>
+                <button class="book"><a href="#popup">Забронировать</a></button>
+            </div>
+            <div class="block_1">
+                <h6>На природе</h6>
+                <div class="photos V3">
+                    <div class="ph1 nature1"></div>
+                    <div class="ph2 nature2"></div>
+                    <div class="ph3 nature3"></div>
+                    <div class="ph3 nature4"></div>
+                </div>
+                <p>1500 руб./ч</p>
+                <button class="book"><a href="#popup">Забронировать</a></button>
+            </div>
+        </div>
+        <!-- Locations -->
+        <div class="locations" id="locations">
+            <h4>ЛОКАЦИИ</h4>
+            <div class="studios">
+                <div class="img_wrap">
+                    <img src="img/s1.jpg" alt="studia">
+                    <a href="#popup" class="hidden">Выбрать зал</a>
+                </div>
+                <div class="img_wrap">
+                    <img src="img/s2.jpg" alt="studia">
+                    <a href="#popup" class="hidden">Выбрать зал</a>
+                </div>
+                <div class="img_wrap">
+                    <img src="img/s3.jpg" alt="studia">
+                    <a href="#popup" class="hidden">Выбрать зал</a>
+                </div>
+                <div class="img_wrap">
+                    <img src="img/s4.jpg" alt="studia">
+                    <a href="#popup" class="hidden">Выбрать зал</a>
+                </div>
+                <div class="img_wrap">
+                    <img src="img/s5.jpg" alt="studia">
+                    <a href="#popup" class="hidden">Выбрать зал</a>
+                </div>
+                <div class="img_wrap">
+                    <img src="img/s6.jpg" alt="studia">
+                    <a href="#popup" class="hidden">Выбрать зал</a>
+                </div>
+                
+            </div>
+            <p>Цена за каждую студию - 2500 р./ч</p>
+        </div>
+        <!-- Questions -->
+        <div class="questions_block">
+            <h4  id="questions">ВОПРОСЫ</h4>
+            <p>Есть вопрос? Напиши нам!</p>
+            <form action="">
+                <input type="text" placeholder="Имя и фамилия" class="input">
+            <input type="text" placeholder="Почта" class="input">
+            <textarea name="" id="" cols="30" rows="10" placeholder="Напишите здесь вопрос..." class="input_quest"></textarea> 
+            <button class="send"><a href="">Отправить</a></button>
+            </form>
+        </div>
+        <!-- Contacts -->
+        <div class="contacts_block" id="contacts">
+            <h6>Наши контакты:</h6>
+            <div class="contacts">
+                <a href="#">Вк</a>
+                <a href="#">Инстаграм</a>
+                <a href="#">Почта</a>
+                <a href="#">Телефон</a>
+            </div>
+        </div>
+    </div>
+    <!-- POPUP -->
+    <div class="popup" id="popup" >
+        <div class="popup__body">
+            <div class="popup__content">
+                <a href="#" class="popup__close"><img src="img/close.jpg" alt=""></a>
+                <div class="popup__title">Заполните данные...</div>
+                <div class="popup__inputs">
+                    <input type="text" placeholder="Имя и фамилия" class="input">
+                    <input type="text" placeholder="Почта" class="input">
+                    <input type="date">
+                </div>
+                <div class="popup__button"><button class="send"><a href="">Забронировать</a></button></div>
+            </div>
+        </div>
+    </div>
+    <!-- END POPUP -->
+</body>
+
+</html>
